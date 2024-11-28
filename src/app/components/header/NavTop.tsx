@@ -41,7 +41,6 @@ import {
 	getProductStart,
 	getProductSuccess,
 	selectUserDetails,
-	selectUserDetailsData,
 	selectUserDetailsStatusCode,
 	setUserData,
 } from "../../redux/features/auth/userDetailsSlice";
@@ -212,9 +211,9 @@ const NavTop: React.FC = ({}) => {
 				<div ref={imageRef}>
 					<Link href={`/`}>
 						<Image
-							src="/image/gb-final-logo-primary.png"
-							width={70}
-							height={36}
+							src="/image/brand/honeyraj.png"
+							width={100}
+							height={50}
 							alt="Brand Logo"
 							priority={true}
 							onDragStart={(e) => e.preventDefault()}
@@ -243,10 +242,10 @@ const NavTop: React.FC = ({}) => {
 				<Link href={`/`}>
 					<div ref={imageRef}>
 						<Image
-							src="/image/gb-final-logo-primary.png"
+							src="/image/brand/honeyraj.png"
 							alt=""
-							width={134}
-							height={58}
+							width={180}
+							height={200}
 							priority={true}
 							onDragStart={(e) => e.preventDefault()}
 						/>

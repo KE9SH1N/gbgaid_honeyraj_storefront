@@ -24,10 +24,10 @@ const FooterTop: React.FC = () => {
 					<Link href={`/`}>
 						<div ref={imageRef}>
 							<Image
-								src="/image/Brand logo white.svg"
+								src="/image/brand/honeyraj.png"
 								alt="Footer Brand Logo"
-								width={82}
-								height={36}
+								width={120}
+								height={40}
 								priority={true}
 								onDragStart={(e) => e.preventDefault()}
 							/>
