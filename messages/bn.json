@@ -1,0 +1,554 @@
+{
+	"navigationMenu": {
+		"home": "হোম",
+		"shop": "সকল পণ্য",
+		"about-us": "আমাদের সম্পর্কে",
+		"blog": "ব্লগ",
+		"contact-us": "যোগাযোগ করুন",
+		"customer-support-number": "০৯৬৪২ ৯২২ ৯২২",
+		"customer-support-email": "support@ghorerbazar.com",
+		"mobile-menu": "মেনু"
+	},
+
+	"languageChange": {
+		"english": "ইংরেজি",
+		"bangla": "বাংলা"
+	},
+
+	"allCategory": {
+		"all-category": "সকল ক্যাটাগরি",
+		"emptyCategory": {
+			"empty-category-mesg": "এই ক্যাটেগরিতে এখনও কোনো পণ্য নেই। দয়া করে আমাদের অন্যান্য ক্যাটেগরিগুলো দেখুন!",
+			"empty-category-button": "সকল ক্যাটাগরি"
+		}
+	},
+	"searchBox": {
+		"search-placeholder": "পণ্য অনুসন্ধান করুন (উদাহরণস্বরূপ- ক্রিম মধু)",
+		"mobile-search-placeholder": "এখানে অনুসন্ধান করুন..."
+	},
+
+	"heroBannarButtons": {
+		"view-all": "সব দেখুন"
+	},
+
+	"heroSliderButtons": {
+		"view-all": "সব দেখুন"
+	},
+
+	"footerButtons": {
+		"back-to-top": "উপরে ফিরে যাই"
+	},
+
+	"tabBarMenu": {
+		"home": "হোম",
+		"category": "ক্যাটাগরি",
+		"cart": "কার্ট",
+		"login": "লগইন",
+		"logout": "লগআউট",
+		"profile": "প্রোফাইল"
+	},
+
+	"footerTop": {
+		"short-desc-about-ghorerbazar": "‘’ ঘরের বাজার’’ দেশের অন্যতম বিশ্বস্ত প্রতিষ্ঠান! প্রত্যন্ত অঞ্চল থেকে নিরাপাদ খাদ্য সংগ্রহ করে,পুষ্টিগুন বজায় রেখে ক্রেতার হাতে পৌছে দেয়াই আমাদের মূল উদ্দেশ্য। পুষ্টিকর ও উচ্চমানের পণ্য সরবারহের প্রতিশ্রুতি বজায় রেখে এর মধ্যেই গ্রাহকের আস্থা অর্জন করেছে, দেশে নিরাপদ খাদ্যে সরবারহকারী অন্যতম বিশ্বস্ত এই প্রতিষ্ঠান। বিশুদ্ধ এবং নিরাপদ খাদ্য সরবারহ এবং গ্রাহক সেবা নিশ্চিত করতে আমরা প্রতিশ্রুতিবদ্ধ। প্রত্যন্ত অঞ্চল থেকে নিরাপাদ খাদ্য সংগ্রহ করে,পুষ্টিগুন বজায় রেখে ক্রেতার হাতে পৌছে দেয়াই আমাদের প্রধান লক্ষ্য।",
+		"customerSupport": {
+			"customer-support-title": "গ্রাহক সেবা",
+			"contact": "যোগাযোগ করুন",
+			"faq": "প্রশ্নসমূহ"
+		},
+		"aboutUs": {
+			"about-us": "আমাদের সম্পর্কে"
+		}
+	},
+
+	"footerMain": {
+		"copyright": "Ghorer Bazar. সমস্ত অধিকার সংরক্ষিত",
+		"footerMenu": {
+			"privecy": "প্রাইভেসি পলিসি",
+			"terms": "টার্মস এন্ড কন্ডিশন",
+			"refund-policy": "রিফান্ড পলিসি",
+			"faq": "প্রশ্নসমূহ",
+			"contact": "যোগাযোগ করুন",
+			"about-us": "আমাদের সম্পর্কে"
+		}
+	},
+	"sectionHead": {
+		"all-products": "সকল পণ্য",
+		"all-category": "সকল ক্যাটাগরি",
+		"best-selling": "বেস্ট সেলিং",
+		"ramadan": "রামাদান কর্নার",
+		"collections": "কালেকশন",
+		"customer-review": "কাস্টোমার রিভিউ",
+		"related-products": "একই ধরনের পণ্য",
+		"you-may-like": "আপনি হয়তো পছন্দ করবেন",
+		"health-benifits": "স্বাস্থ্য সুবিধাসমুহ",
+		"product-description": "বিবরণ",
+		"review": "রিভিউ",
+		"write-review": "আপনার রিভিউ লিখুন",
+		"why-choose-us": "কেন Ghorer Bazar নির্বাচন করবেন?",
+		"filter": "পন্য ফিল্টার করুন"
+	},
+	"collectionList": {
+		"dates": "খেজুর",
+		"ramadan-corner": "রামাদান কর্নার",
+		"organic-oil": "জৈব তেল",
+		"honey-nut": "মধুময় বাদাম",
+		"ghee": "ঘী"
+	},
+	"brandService": {
+		"safe-transaction": {
+			"title": "নিরাপদ লেনদেন",
+			"des": "বিভিন্ন পেমেন্ট পদ্ধতি থেকে নির্বাচন করুন"
+		},
+		"green-delivered": {
+			"title": "গ্রিন ডেলিভারি",
+			"des": "৩-৫ দিনের মধ্যে আপনার পণ্য পৌছে যাবে"
+		},
+		"natural": {
+			"title": "১০০% ন্যাচারাল",
+			"des": "প্রাকৃতিক উপাদান ব্যবহার করতে আমরা প্রতিশ্রুতিবদ্ধ"
+		}
+	},
+	"customerReview": {
+		"reviewOne": {
+			"review": "হানি নাট একটি অত্যন্ত সুস্বাদু ও পুষ্টিকর পণ্য। এটি প্রাকৃতিক মধু এবং নাটসহ মিশ্রিত, যা মিষ্টি ও ক্রিস্পি স্বাদ উপহার করে। এটি অত্যন্ত স্বাস্থ্যকর এবং একটি স্বাস্থ্যবান পরিবারের জন্য উত্তম পণ্য।",
+			"user-name": "সাইফুল"
+		},
+		"reviewTwo": {
+			"review": "খেজুর একটি ভালো অক্সিডেন্ট উৎস, প্রধানত ক্যারোটিনয়েডস এবং ফেনোলিক। খেজুরের বীজ মাংসের তুলনায় প্রায় উচ্চ প্রোটিন এবং চর্বি ধারণ করে।",
+			"user-name": "তাফসির"
+		},
+		"reviewThree": {
+			"review": "হানি নাট একটি অত্যন্ত সুস্বাদু ও পুষ্টিকর পণ্য। এটি প্রাকৃতিক মধু এবং নাটসহ মিশ্রিত, যা মিষ্টি ও ক্রিস্পি স্বাদ উপহার করে। এটি অত্যন্ত স্বাস্থ্যকর এবং একটি স্বাস্থ্যবান পরিবারের জন্য উত্তম পণ্য।",
+			"user-name": "রাকিবুল"
+		}
+	},
+	"certificates": {
+		"bsti": "বিএসটিআই অনুমোদিত",
+		"achievement": "নির্ভেজাল এবং প্রাকৃতিক পণ্য"
+	},
+	"siteRating": {
+		"rating": "রেটিং",
+		"raing-point": "৪.৫",
+		"trust-text-1": "প্রায়",
+		"trust-text-2": "১ মিলিওন",
+		"trust-text-3": "গ্রাহকের আস্থার ঠিকানা, ঘরের বাজার"
+	},
+	"avgRating": {
+		"title": "গড় রেটিংস",
+		"rating-point": "৪.০",
+		"rating-text": "এই পণ্যের গড় রেটিং"
+	},
+	"cartSlider": {
+		"shoping-bag": "শপিং ব্যাগ",
+		"sub-total": "সাবটোটাল:",
+		"button": "চেকআউট"
+	},
+	"emptyCart": {
+		"empty": "কার্টে কিছু নেই",
+		"empty-button": "কেনাকাটা চালিয়ে যান",
+		"empty-checkout": "ওহহো! কার্টে কিছুই নেই"
+	},
+	"cart": {
+		"floating-cart": "কার্ট"
+	},
+	"path": {
+		"home": "হোম",
+		"products": "পণ্য সমূহ"
+	},
+	"comboTogether": {
+		"title": "এক সাথে ক্রয় করুন",
+		"combo-text": "সাশ্রয় করুন",
+		"combo-button": "কার্টে এড করুন"
+	},
+	"customerComment": {
+		"user-name": "ইমতিয়াজ আহমেদ",
+		"rating": "৪.০",
+		"time": "এক দিন পূর্বে",
+		"comment": "ক্রিস্টাল হানি আমার পছন্দের হানি পণ্য। এর স্বাদ অত্যন্ত মধুর এবং উপকারী। আমি এটি অবশ্যই পুনরায় ক্রয় করব।"
+	},
+	"addToCart": {
+		"quality-text": "টি যোগ হয়েছে",
+		"add-to-cart-button": "কার্টে এড করুন",
+		"buy-now-button": "এখনই কিনুন",
+		"stock-out": "স্টক রিকোয়েস্ট",
+		"request-stock-btn": " স্টক রিকোয়েস্ট",
+		"request-success-mesg": "আপনার রিকোয়েস্ট সফলভাবে সাবমিট হয়েছে"
+	},
+	"reviewRating": {
+		"excellent": "চমৎকার",
+		"good": "ভাল",
+		"avg": "সাধারণ",
+		"bellow-avg": "সাধারণের নিচে",
+		"bad": "খারাপ",
+		"rating": "৪.০",
+		"review-text": "২৩৩ টি রিভিউ এর উপর ভিত্তি করে",
+		"review-placeholder": "আপনি এই পণ্যের সম্পর্কে কি কিছু লিখতে চান?",
+		"submit-reivew": "রিভিউ সাবমিট"
+	},
+	"whyGhorerBazar": {
+		"reasonOne": {
+			"title": "৩০ দিনে মানি ব্যাক গ্যারান্টি*",
+			"des": "আপনার অর্ডারে যদি সন্তুষ্ট না হন, তবে আপনি তা আপনার কেনার তারিখ থেকে ৩০ দিনের মধ্যে ফেরত দিতে পারবেন এবং আমরা আপনাকে সম্পুর্ন পণ্যের মূল্য ফেরত দেব ।"
+		},
+		"reasonTwo": {
+			"title": "ফ্রি শিপিং এবং সহজ রিটার্ন*",
+			"des": "আমরা ফ্রি শিপিং এবং এক্সপ্রেস শিপিং এর বিকল্প প্রদান করি। আপনার অর্ডার ফেরত দেওয়ার প্রয়োজন হলে, আমরা সহয়মত শিপিং খরচ পরিশোধ করে থাকি।*"
+		},
+		"reasonThree": {
+			"title": "১ মিলিয়নের অধিক খুশি গ্রাহক",
+			"des": "আমরা আমাদের গ্রাহকদের প্রতি যত্নশীল এবং দায়ীত্বশীল । আর তাই একটু একটু করে আজ আমরা এত বড় একটি পরিবার ।"
+		}
+	},
+	"filter": {
+		"category-filter": "ক্যাটাগরি",
+		"price-filter": "মুল্য",
+		"stock-filter": {
+			"availability": "পন্যের প্রাপ্যতা",
+			"show-all": "সব দেখুন",
+			"in-stock": "স্টক আছে"
+		},
+		"filter-by-category": "ক্যাটাগরি ফিল্টার",
+		"filter-by-availability": "স্টক ফিল্টার",
+		"min-price": "০",
+		"max-price": "১০০"
+	},
+	"checkout": {
+		"title": "চেকআউট",
+		"bangladeshi": {
+			"title": "বাংলাদেশী",
+			"location": {
+				"division": "বিভাগ",
+				"district": "জেলা",
+				"thana": "থানা"
+			},
+			"billingAddress": {
+				"title": "ক্রেতার তথ্য",
+				"name": "আপনার নাম",
+				"namePlaceholder": "আপনার নাম লিখুন",
+				"phoneNumber": "আপনার মোবাইল নাম্বার",
+				"phoneNumberPlaceholder": "আপনার মোবাইল নাম্বারটি লিখুন",
+				"additionalPhoneNumber": "আপনার অতিরিক্ত মোবাইল নাম্বার",
+				"additionaPhoneNumberPlaceholder": "আপনার অতিরিক্ত মোবাইল নাম্বারটি লিখুন",
+				"titleAddressField": "আপনার ঠিকানা",
+				"textAddressPlaceholder": "৮১/ক, রোডঃ১৪, বারিধারা কূটনৈতিক বলয়",
+				"countryCode": "+৮৮",
+				"billingNameTitle": "আপনার নাম লিখুন (যেমনঃ মোঃ সাইফুল)",
+				"billingPhoneNumberTitle": "আপনার ১১ ডিজিটের যেকোন অপারেটরের মোবাইল নাম্বার লিখুন (যেমনঃ ০১৭০০০০০০০০)",
+				"billingAdditionalaPhoneNumberTitle": "আপনার অতিরিক্ত মোবাইল নাম্বারটি লিখুন (যেমনঃ ০১৯০০০০০০০০)",
+				"billingAddressTitle": "আপনার বাসা নং, রোড নং, পাড়া বা মহল্লার ঠিকানা লিখুন (যেমনঃ গ্রাম- পশ্চিম সকদি, গার্ড সাহেবের বাড়ি, বড় মসজিদের পাশে)"
+			},
+			"shippingAddress": {
+				"title": "গ্রহীতার তথ্য",
+				"name": "গ্রহীতার নাম",
+				"namePlaceholder": "গ্রহীতার নাম লিখুন",
+				"phoneNumber": "গ্রহীতার মোবাইল নাম্বার",
+				"phoneNumberPlaceholder": "গ্রহীতার মোবাইল নাম্বারটি লিখুন",
+				"additionalPhoneNumber": "গ্রহীতার অতিরিক্ত মোবাইল নাম্বার",
+				"additionaPhoneNumberPlaceholder": "গ্রহীতার অতিরিক্ত মোবাইল নাম্বারটি লিখুন",
+				"titleAddressField": "গ্রহীতার প্রেরনের ঠিকানা",
+				"textAddressPlaceholder": "৮১/ক, রোডঃ১৪, বারিধারা কূটনৈতিক বলয়",
+				"countryCode": "+৮৮",
+				"shippingNameTitle": "গ্রহীতার নাম লিখুন (যেমনঃ মোঃ কাওসার)",
+				"shippingPhoneNumberTitle": "গ্রহীতার ১১ ডিজিটের যেকোন অপারেটরের মোবাইল নাম্বার লিখুন (যেমনঃ ০১৩০০০০০০০০)",
+				"shippingAdditionalaPhoneNumberTitle": "গ্রহীতার অতিরিক্ত মোবাইল নাম্বারটি লিখুন (যেমনঃ ০১৭০০০০০০০০)",
+				"shippingAddressTitle": "গ্রহীতার বাসা নং, রোড নং, পাড়া বা মহল্লার ঠিকানা লিখুন (যেমনঃ গ্রাম- মাহিনি, বাঙ্গড্ডা বাজার, বাদশা মিয়াঁ স্কুলের পাশে)"
+			},
+			"checkMark": {
+				"gift": "উপহার",
+				"sameAsBilling": "একই ঠিকানা"
+			}
+		},
+		"nonBangladeshi": {
+			"title": "প্রবাসী",
+			"billingAddress": {
+				"title": "প্রবাসীর তথ্য",
+				"name": "আপনার নাম",
+				"whatsAppNumber": "আপনার হোয়াট'স অ্যাপ নাম্বার",
+				"whatsAppNumberPlaceholder": "আপনার হোয়াট'স অ্যাপ নাম্বারটি লিখুন",
+				"whatsAppNumberSearchPlaceholder": "দেশের কোড খুজুন দেশের নাম লিখে",
+				"relationshipStatus": "গ্রহীতার সাথে আপনার সম্পর্ক",
+				"relationshipStatusPlaceholder": "অর্ডার গ্রহীতার সাথে আপনার সম্পর্ক কি তা লিখুন (যেমন: আমার বাবা)",
+
+				"whatsAppNumberTitle": "আপনার ১১ ডিজিটের সচল হোয়াটস অ্যাপ নাম্বারটি লিখুন (যেমনঃ ০১৮০০০০০০০০)",
+
+				"relationshipStatusTitle": "আপনি যার কাছে পন্য পাঠাবেন তার সাথে আপনার সম্পর্ক এখানে লিখুন (যেমনঃ আমার আম্মিজান)"
+			}
+		},
+		"productList": {
+			"title": "কার্টে থাকা পন্য তালিকা"
+		},
+		"paymentMethod": {
+			"title": "পেমেন্ট ম্যাথড নির্বাচন করুন",
+			"options": {
+				"cod": "ক্যাশ অন ডেলিভারি",
+				"bkash": "বিকাশ",
+				"ssl": "এস এস এল কমার্স"
+			}
+		},
+		"checkMark": "আমি স্বজ্ঞানে, স্বদইচ্ছায় সকল",
+		"checkMark-link": "শর্ত এবং শর্তাদির সাথে সম্মতি প্রদান করছি",
+		"delivery": "ডেলিভারি পদ্ধতি",
+		"ammount": {
+			"subtotal": "সাবটোটাল :",
+			"delivery-charge": "ডেলিভারির খরচ:",
+			"total": "সর্বমোট:"
+		},
+		"button": "কনফার্ম অর্ডার",
+		"ErrorMessage": {
+			"Error": {
+				"customer-phoneNumber": "অনুগ্রহ করে গ্রাহকের ফোন নাম্বারটি লিখুন।",
+				"customer-phoneNumber-digit": "গ্রাহকের ফোন নাম্বারটি সঠিকভাবে ১১ টি সংখ্যার হতে হবে।",
+				"shipping-phoneNumber": "অনুগ্রহ করে গ্রহীতার ফোন নাম্বারটি লিখুন।",
+				"shipping-phoneNumber-digit": "গ্রহীতার ফোন নাম্বারটি সঠিকভাবে ১১ টি সংখ্যার হতে হবে।",
+				"whapsApp-number-incorrect": "আপনার হোয়াটস অ্যাপ নাম্বার টি সঠিক নয়। অনুগ্রহ করে সঠিক নাম্বার প্রদান করুন",
+				"whapsApp-number-digit": "আপনার হোয়াটস অ্যাপ নাম্বার টি সঠিক নয়।"
+			}
+		}
+	},
+	"mobileMenu": {
+		"language": {
+			"title": "ভাষা",
+			"eng": "ইং",
+			"bn": "বাং"
+		},
+		"category": {
+			"title": "ক্যাটাগরি"
+		},
+		"support": {
+			"title": "সহায়তা",
+			"24/7": "২৪/৭",
+			"support-email": "support@ghorerbazar.com",
+			"cs-number": "০৯৬৪২ ৯২২ ৯২২",
+			"callForOrder": {
+				"title": "অর্ডার করতে কল করুন",
+				"call": "কল"
+			},
+			"ForNonBangladeshi": {
+				"title": "প্রবাসিরা যোগাযোগ করুন",
+				"What's-app": "Send Message"
+			}
+		},
+		"button": {
+			"create-accout": "একাউন্ট খুলুন",
+			"login": "লগইন",
+			"logout": "লগআউট"
+		}
+	},
+	"confirmOrder": {
+		"success": "আপনার অর্ডার সফলভাবে সাবমিট হয়েছে! আমাদের সাথে কেনাকাটা করার জন্য ধন্যবাদ ।",
+		"order-no": {
+			"text": "অর্ডার নাম্বার",
+			"id": "#১২৩ ৪৫৬ ৭৮৯"
+		},
+		"button": "হোমে ফিরে যাই"
+	},
+	"alertBox": {
+		"error-title": "সতর্ক বার্তা",
+		"success-title": "প্রতিক্রিয়া বার্তা",
+		"button-ok": "ঠিক আছে"
+	},
+	"comingSoon": {
+		"coming-soon": "শীঘ্রই আসিতেছে",
+		"sub-title": "নির্মাণাধীন",
+		"description": "ইহা নির্মাণাধীন প্রক্রিয়ায় আছে । আশা করছি অতি শীঘ্রই প্রকাশ করা হবে ।"
+	},
+	"searchResult": {
+		"search-results-for": "- অনুসন্ধানের ফলাফল ",
+		"empty-search-msg": "কোন তথ্য পাওয়া যায় নাই",
+		"empty-search-button": "কেনাকাটা চালিয়ে যান"
+	},
+	"contactUs": {
+		"title": "আমাদের সাথেই থাকুন",
+		"sub-title": "যেকোন সময়ে আমাদের সাথে যোগাযোগ করুন",
+		"formContent": {
+			"first-name": "প্রথম নাম",
+			"first-name-placeholder": "নামের প্রথম অংশ লিখুন",
+			"last-name": "শেষ নাম",
+			"last-name-placeholder": "নামের শেষ অংশ লিখুন",
+			"email": "ইমেইল",
+			"email-placeholder": "আপনার ইমেইল লিখুন",
+			"phone-number": "মোবাইল নাম্বার",
+			"phone-number-placeholder": "আপনার মোবাইল নাম্বারটি লিখুন",
+			"mesg": "আপনার বার্তা",
+			"mesg-placeholder": "আপনার মূল্যবান মতামত লিখুন..."
+		},
+		"submit-btn": "সাবমিট",
+		"privecy-policy-text": {
+			"text": "আপনার তথ্যের নিরাপত্তা ও গোপনীয়তা আমাদের কাছে সংরক্ষিত থাকবে।"
+		},
+
+		"number": "09642 922 922",
+		"text": "we are available to provide any support 24/7",
+		"errorMessage": {
+			"error": {
+				"contactUs-customer-email": "আপনার ইমেইল ফরমেট সঠিক নয়",
+				"contactUs-customer-phoneNumber": "অনুগ্রহ করে আপনার সঠিক মোবাইল নম্বর টি লিখুন",
+				"contactUs-customer-message": "অনুগ্রহ করে আপনার বার্তাটি লিখুন",
+				"backend-errorMesg": "একটি সমস্যা দেখা দিচ্ছে, তাই আবার চেষ্টা করুন"
+			}
+		},
+		"successMessage": {
+			"success": {
+				"mesg-submited": "আপনার বার্তাটি জমা হয়েছে"
+			}
+		}
+	},
+	"randomButtons": {
+		"load-more": "আরও লোড করুন"
+	},
+	"stockOutProductRequest": {
+		"requestStockForm": {
+			"title": "আপনার তথ্য",
+			"your-name": "আপনার নাম",
+			"your-name-placeholder": "আপনার নাম লিখুন",
+			"your-phone-number": "আপনার ফোন নাম্বার",
+			"your-phone-number-placeholder": "+৮৮ ০১৩১৫ ৫০৬০৭০",
+			"your-address": "আপনার ঠিকানা",
+			"your-address-placeholder": "আপনার ঠিকানা লিখুন",
+			"submit": "সাবমিট"
+		}
+	},
+	"productDetailsTab": {
+		"about": "পণ্যের বিবরণ",
+		"health-benifits": "স্বাস্থ্য সুবিধাসমুহ",
+		"usability": "ব্যবহারবিধি",
+		"side-effect": "সাইড এফেক্ট",
+		"certificates": "সার্টিফিকেশান",
+		"review": "রিভিউ"
+	},
+	"requestStockToasterMesg": {
+		"mesgType": {
+			"success": "সফল",
+			"failed": "ব্যর্থ",
+			"warning": "সতর্কতা",
+			"info": "তথ্য"
+		},
+		"validation-mesg": {
+			"name-field": "আপনার নামটি লিখুন",
+			"phoneNumber-field": "আপনার মোবাইল নাম্বারটি লিখুন"
+		},
+		"success-mesg": "আপনার রিকোয়েস্ট সফলভাবে পাঠানো হয়েছে।",
+		"failed-mesg": "একটি সমস্যা দেখা দিচ্ছে, তাই আবার চেষ্টা করুন"
+	},
+	"userDashboard": {
+		"sideMenu": {
+			"user-profile": "প্রোফাইল ",
+			"order-status": "অর্ডার স্ট্যাটাস",
+			"order-history": "অর্ডার হিস্ট্রি",
+			"write-review": "রিভিউ লিখুন",
+			"change-pin": "পিন পরিবর্তন",
+			"logout": "লগআউট"
+		},
+		"profileHead": {
+			"update-profile": "আপডেট প্রোফাইল"
+		},
+		"profileInformation": {
+			"title": "ব্যক্তিগত তথ্য",
+			"info": {
+				"full-name": "পূর্ন নাম",
+				"phone-number": "ফোন নাম্বার",
+				"additional-phoneNumber": "অতিরিক্ত ফোন নাম্বার",
+				"email": "ইমেইল",
+				"division": "বিভাগ",
+				"district": "জেলা",
+				"thana": "থানা",
+				"local-address": "ঠিকানা"
+			}
+		},
+		"orderHistory": {
+			"title": "অর্ডার হিস্ট্রি",
+			"tableHead": {
+				"date": "তারিখ",
+				"order-id": "অর্ডার আইডি",
+				"total-amount": "টাকার পরিমান",
+				"order-status": "স্ট্যাটাস",
+				"action": "একশন"
+			},
+			"pagination": {
+				"next": "পরবর্তী",
+				"previous": "পূর্ববর্তী"
+			}
+		},
+		"writeReview": {
+			"title": "রিভিউ সাবমিট করুন",
+			"review": {
+				"title": "আমাদের সার্ভিস সম্পর্কে আপনার মতামত",
+				"options": {
+					"excellent": "চমৎকার",
+					"very-good": "খুব ভাল",
+					"good": "ভাল",
+					"bad": "খারাপ"
+				}
+			},
+			"writeYourOpinion": "আপনার মতামত লিখুন",
+			"submit": "সাবমিট"
+		},
+		"setUserPin": {
+			"title": "পিন পরিবর্তন করুন",
+			"form": {
+				"label": {
+					"current-pin-number": "বর্তমানের পিন নাম্বার",
+					"create-new-pin": "নতুন পিন নাম্বার",
+					"confirm-pin": "কনফার্ম পিন নাম্বার"
+				},
+				"placeholder": {
+					"current-pin-number": "আপনার পুরোন পিন লিখুন",
+					"create-new-pin": "আপনার নতুন পিন লিখুন",
+					"confirm-pin": "আপনার নতুন পিন কনফার্ম করুন"
+				}
+			},
+			"submit": "সেভ"
+		}
+	},
+
+	"deliveryOption": {
+		"deliveryInfo": {
+			"title": "ডেলিভারির তথ্য",
+			"expectedDelivery": {
+				"title": "প্রত্যাশিত ডেলিভারির সময়",
+				"description": "অর্ডার কনফার্মের ৩-৫ দিনের মধ্যে"
+			},
+			"paymentMethod": {
+				"title": "পেমেন্ট ম্যাথড",
+				"description": "ক্যাশ অন ডেলিভারি"
+			}
+		},
+		"deliveryArea": {
+			"title": "ডেলিভারি এরিয়া",
+			"availableArea": {
+				"title": "আওতাভুক্ত এলাকা",
+				"description": "সারা বাংলাদেশ"
+			}
+		}
+	},
+	"singleOrderDetails": {
+		"orderSummary": {
+			"title": "অর্ডার সামারী",
+			"order-id": "অর্ডার আইডি",
+			"order-date": "অর্ডারের তারিখ",
+			"hello": "হ্যালো",
+			"mesg": "আপনার অর্ডারটি সফলভাবে সাবমিট হয়েছে ।",
+			"cs-mesg": "যে কোন তথ্যের জন্য আমার কাস্টোমার সাপোর্টের সাথে যোগাযোগ করুন।",
+			"order-status": "অর্ডার স্ট্যাটাস",
+			"product-list": "পণ্যের তালিকা",
+			"shipping-address": {
+				"title": "শিপিং এর ঠিকানা",
+				"division": "বিভাগ",
+				"district": "জেলা",
+				"thana": "থানা",
+				"local-address": "ঠিকানা",
+				"subtotal": "সাবটোটাল",
+				"payment-method": "পেমেন্ট ম্যাথোড",
+				"delivery-charge": "ডেলিভারির খরচ",
+				"advanced-payment-amount": "অগ্রিম টাকার পরিমাণ",
+				"tk": "৳"
+			},
+			"cancelOrderModal": {
+				"cancelOrderMesg": "আপনি কি আপনার অর্ডারটি ক্যান্সেল করতে চান?",
+				"yes": "হ্যাঁ",
+				"no": "না",
+				"toastMesg": "আপনার অর্ডার সফলভাবে ক্যান্সেল হয়েছে।"
+			}
+		}
+	}
+}

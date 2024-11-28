@@ -1,0 +1,561 @@
+{
+	"navigationMenu": {
+		"home": "home",
+		"shop": "all product",
+		"about-us": "about us",
+		"blog": "blog",
+		"contact-us": "contact us",
+		"customer-support-number": "09642 922 922",
+		"customer-support-email": "support@ghorerbazar.com",
+		"mobile-menu": "menu"
+	},
+
+	"languageChange": {
+		"english": "english",
+		"bangla": "bangla"
+	},
+	"allCategory": {
+		"all-category": "all category",
+		"emptyCategory": {
+			"empty-category-mesg": "No items in this category yet. Please check out our other categories!",
+			"empty-category-button": "All categories"
+		}
+	},
+
+	"searchBox": {
+		"search-placeholder": "search your product (ex: crystal honey)",
+		"mobile-search-placeholder": "Search here"
+	},
+
+	"heroBannarButtons": {
+		"view-all": "view all"
+	},
+
+	"heroSliderButtons": {
+		"view-all": "view all"
+	},
+
+	"footerButtons": {
+		"back-to-top": "back to top"
+	},
+
+	"tabBarMenu": {
+		"home": "home",
+		"category": "category",
+		"cart": "cart",
+		"login": "login",
+		"logout": "logout",
+		"profile": "profile"
+	},
+
+	"footerTop": {
+		"short-desc-about-ghorerbazar": "GhoereBazar is an online marketplace where you can find various products. Here, you can discover the newest and highest-quality items available. Easily place orders and have your favorite products delivered nationwide. GhoereBazar is by your side to make online shopping easier and more enriching.",
+		"customerSupport": {
+			"customer-support-title": "customer suppport",
+			"contact": "contact us",
+			"faq": "F.A.Q"
+		},
+		"aboutUs": {
+			"about-us": "about us"
+		}
+	},
+
+	"footerMain": {
+		"copyright": "Ghorer Bazar. All rights reserved.",
+		"footerMenu": {
+			"privecy": "Privacy Policy",
+			"terms": "Terms & Conditions",
+			"refund-policy": "Return Policy",
+			"faq": "F.A.Q",
+			"contact": "contact us",
+			"about-us": "about us"
+		}
+	},
+
+	"sectionHead": {
+		"all-products": "all products",
+		"all-category": "all category",
+		"best-selling": "best selling",
+		"ramadan": "ralmadan corner",
+		"collections": "collections",
+		"customer-review": "customer review",
+		"related-products": "related products",
+		"you-may-like": "you may like",
+		"health-benifits": "health benifits",
+		"product-description": "description",
+		"review": "review",
+		"write-review": "write your reivew",
+		"why-choose-us": "Why choose Ghorer Bazar?",
+		"filter": "filter products"
+	},
+	"collectionList": {
+		"dates": "dates",
+		"ramadan-corner": "ramadan-corner",
+		"organic-oil": "organic oil",
+		"honey-nut": "honey nut",
+		"ghee": "ghee"
+	},
+
+	"brandService": {
+		"safe-transaction": {
+			"title": "Secure payments",
+			"des": "Choose between different payment methods."
+		},
+		"green-delivered": {
+			"title": "green delivery",
+			"des": "Receive your product within 3-5 days"
+		},
+		"natural": {
+			"title": "100% natural",
+			"des": "We are committed to use only natural ingredients"
+		}
+	},
+	"customerReview": {
+		"reviewOne": {
+			"review": "Lorem ipsum dolor sit amet consectetur. Nisl commodo sit eu consectetur purus morbi. Amet et aenean donec in. Aenean ut lorem morbi habitant.",
+			"user-name": "saiful"
+		},
+		"reviewTwo": {
+			"review": "Lorem ipsum dolor sit amet consectetur. Nisl commodo sit eu consectetur purus morbi. Amet et aenean donec in. Aenean ut lorem morbi habitant.",
+			"user-name": "Tafsir"
+		},
+		"reviewThree": {
+			"review": "Lorem ipsum dolor sit amet consectetur. Nisl commodo sit eu consectetur purus morbi. Amet et aenean donec in. Aenean ut lorem morbi habitant.",
+			"user-name": "Rakibul"
+		}
+	},
+	"certificates": {
+		"bsti": "bsti certified",
+		"achievement": "Organic and natural products"
+	},
+	"siteRating": {
+		"rating": "Rating",
+		"raing-point": "4.5",
+		"trust-text-1": "over",
+		"trust-text-2": "1 million",
+		"trust-text-3": "people trust us."
+	},
+	"avgRating": {
+		"title": "average rating",
+		"rating-point": "4.0",
+		"rating-text": "average rating for this product"
+	},
+	"cartSlider": {
+		"shoping-bag": "shopping bag",
+		"sub-total": "sub-total:",
+		"button": "checkout"
+	},
+	"emptyCart": {
+		"empty": "cart is empty",
+		"empty-button": "Continue Shopping",
+		"empty-checkout": "Opps! your cart is empty"
+	},
+	"cart": {
+		"floating-cart": "cart"
+	},
+	"path": {
+		"home": "home",
+		"products": "all products"
+	},
+	"comboTogether": {
+		"title": "bought together in combo",
+		"combo-text": "save",
+		"combo-button": "add to cart"
+	},
+	"customerComment": {
+		"user-name": "Emtiaz Ahmed",
+		"rating": "4.0",
+		"time": "1 day ago",
+		"comment": "Crystal honey is my favorite honey product. Its taste is extremely sweet and beneficial. I will definitely purchase it again."
+	},
+	"addToCart": {
+		"quality-text": "item in cart",
+		"add-to-cart-button": "add to cart",
+		"buy-now-button": "buy now",
+		"stock-out": "stock request",
+		"request-stock-btn": " request for stock",
+		"request-success-mesg": "your request successfully submited"
+	},
+	"reviewRating": {
+		"excellent": "excellent",
+		"good": "good",
+		"avg": "average",
+		"bellow-avg": "bellow average",
+		"bad": "bad",
+		"rating": "4.0",
+		"review-text": "based on 233 review",
+		"review-placeholder": "do you want to write any reivew about this product",
+		"submit-reivew": "submit review"
+	},
+	"whyGhorerBazar": {
+		"reasonOne": {
+			"title": "30 days money back guarantee*",
+			"des": "If you are not satisfied with your order, just return it within 30 days of your purchase and we will give you a full refunds.*"
+		},
+		"reasonTwo": {
+			"title": "Free shipping and Free returns*",
+			"des": "We offer the choice of free shipping and express shipping. If you need to return your order, we will also pay for the return shipping.*"
+		},
+		"reasonThree": {
+			"title": "Over 1 million happy customers*",
+			"des": "We are attentive and responsible towards our customers. And that's why gradually we have become such a big family today."
+		}
+	},
+	"filter": {
+		"category-filter": "category",
+		"price-filter": "price",
+		"stock-filter": {
+			"availability": "availability",
+			"show-all": "show all",
+			"in-stock": "in stock"
+		},
+		"filter-by-category": "filter by category",
+		"filter-by-availability": "filter by availability",
+		"min-price": "0",
+		"max-price": "100"
+	},
+	"checkout": {
+		"title": "checkout",
+		"bangladeshi": {
+			"title": "in bangladesh",
+			"location": {
+				"division": "division",
+				"district": "district",
+				"thana": "thana"
+			},
+			"billingAddress": {
+				"title": "billing address",
+				"name": "your name",
+				"namePlaceholder": "write your name here",
+				"phoneNumber": "your phone number",
+				"phoneNumberPlaceholder": "write your phone number here",
+				"additionalPhoneNumber": "your additional phone number",
+				"additionaPhoneNumberPlaceholder": "write your additional phone number here",
+				"titleAddressField": "your billing address",
+				"textAddressPlaceholder": "81/KA, Road:14 Baridhara Diplomatic Zone",
+				"countryCode": "+88",
+				"billingNameTitle": "Enter your name (ex: md.saiful)",
+				"billingPhoneNumberTitle": "Enter your 11 digit phone number (ex: 01700000000)",
+				"billingAdditionalaPhoneNumberTitle": "Enter your additional 11 digit phone number (ex: 01700000000)",
+				"billingAddressTitle": "Write your village name or anything specific objects. (ex: vill- east shakdi, gaurd shaheber bari, boro moshjider pashe)"
+			},
+			"shippingAddress": {
+				"title": "shipping address",
+				"name": "reciever name",
+				"namePlaceholder": "write reciever's name here",
+				"phoneNumber": "reciever phone number",
+				"phoneNumberPlaceholder": "write reciever's phone number here",
+				"additionalPhoneNumber": "reciever additional phone number",
+				"additionaPhoneNumberPlaceholder": "write reciever's additional phone number here",
+				"titleAddressField": "reciever shipping address",
+				"textAddressPlaceholder": "81/KA, Road:14 Baridhara Diplomatic Zone",
+				"countryCode": "+88",
+				"shippingNameTitle": "Enter reciever name (ex: md.saiful)",
+				"shippingPhoneNumberTitle": "Enter reciever 11 digit phone number (ex: 01700000000)",
+				"shippingAdditionalaPhoneNumberTitle": "Enter reciever additional 11 digit phone number (ex: 01700000000)",
+				"shippingAddressTitle": "Write reciever village name or anything specific objects. (ex: vill- east shakdi, gaurd shaheber bari, boro moshjider pashe)"
+			},
+			"checkMark": {
+				"gift": "gift",
+				"sameAsBilling": "same as billing information"
+			}
+		},
+		"nonBangladeshi": {
+			"title": "non-resident",
+			"billingAddress": {
+				"title": "non-resident information",
+				"name": "your name",
+				"whatsAppNumber": "your whats app number",
+				"whatsAppNumberPlaceholder": "enter your whats app phone number",
+				"whatsAppNumberSearchPlaceholder": "search country code by country name",
+				"relationshipStatus": "your relationship with the receiver",
+				"relationshipStatusPlaceholder": "write down your relationship with order receiver (ex: my father)"
+			}
+		},
+		"productList": {
+			"title": "cart product list"
+		},
+		"paymentMethod": {
+			"title": "select payment method",
+			"options": {
+				"cod": "cash on delivery (cod)",
+				"bkash": "bKash",
+				"ssl": "SSL commerz"
+			}
+		},
+		"checkMark": "I agree with the",
+		"checkMark-link": "terms and condition",
+		"delivery": "delivery method:",
+		"ammount": {
+			"subtotal": "subtotal:",
+			"delivery-charge": "delivery charge:",
+			"total": "total:"
+		},
+		"button": "confirm order",
+		"ErrorMessage": {
+			"Error": {
+				"customer-phoneNumber": "Please fill up the customer phone number field.",
+				"customer-phoneNumber-digit": "Customer Phone Number should be exactly 11 digits.",
+				"shipping-phoneNumber": "Please fill up the shipping phone number field.",
+				"shipping-phoneNumber-digit": "Shipping Phone Number should be exactly 11 digits.",
+				"whapsApp-number-incorrect": "Your whatsapp number is incorrect. please insert correct whatsapp number.",
+				"whapsApp-number-digit": "Your whatsapp number is not correct."
+			}
+		}
+	},
+
+	"mobileMenu": {
+		"language": {
+			"title": "language",
+			"eng": "en",
+			"bn": "bn"
+		},
+		"category": {
+			"title": "category"
+		},
+		"support": {
+			"title": "support",
+			"24/7": "24/7",
+			"support-email": "support@ghorerbazar.com",
+			"cs-number": "09642 922 922",
+			"callForOrder": {
+				"title": "call for order",
+				"call": "call"
+			},
+			"ForNonBangladeshi": {
+				"title": "For Non Bangladeshi",
+				"What's-app": "Send Message"
+			}
+		},
+		"button": {
+			"create-accout": "create account",
+			"login": "login",
+			"logout": "logout"
+		}
+	},
+	"confirmOrder": {
+		"success": "Your order has been successfully placed! Thank you for shopping with us.",
+		"order-no": {
+			"text": "Order No:",
+			"id": "#123 456 789"
+		},
+		"button": "back to home"
+	},
+	"alertBox": {
+		"error-title": "alert message",
+		"success-title": "action message",
+		"button-ok": "ok"
+	},
+	"comingSoon": {
+		"coming-soon": "coming soon",
+		"sub-title": "under construction",
+		"description": "It is under development process. we will release soon."
+	},
+	"searchResult": {
+		"search-results-for": "Search Results For: ",
+		"empty-search-msg": "no results for this search",
+		"empty-search-button": "continue shopping"
+	},
+	"contactUs": {
+		"title": "Get in touch",
+		"sub-title": "You can reach us anytime",
+		"formContent": {
+			"first-name": "your first name",
+			"first-name-placeholder": "enter your first name",
+			"last-name": "your last name",
+			"last-name-placeholder": "enter your last name",
+			"email": "your email",
+			"email-placeholder": "enter your email",
+			"phone-number": "your phone number",
+			"phone-number-placeholder": "enter your phone number",
+			"mesg": "your message",
+			"mesg-placeholder": "write your message here..."
+		},
+		"submit-btn": "submit",
+		"privecy-policy-text": {
+			"text": "Your information is confidential and secure. Trust us with your details."
+		},
+
+		"number": "09642 922 922",
+		"text": "we are available to provide any support 24/7",
+
+		"errorMessage": {
+			"error": {
+				"contactUs-customer-email": "Your email formate is not correct",
+				"contactUs-customer-phoneNumber": "Please insert your correct phone number",
+				"contactUs-customer-message": "Please write a message",
+				"backend-errorMesg": "Something Wrong! Please Try Again Later."
+			}
+		},
+		"successMessage": {
+			"success": {
+				"mesg-submited": "Your Message Submited"
+			}
+		}
+	},
+	"randomButtons": {
+		"load-more": "load more"
+	},
+
+	"stockOutProductRequest": {
+		"requestStockForm": {
+			"title": "your information",
+			"your-name": "your name",
+			"your-name-placeholder": "write your name",
+			"your-phone-number": "your phone number",
+			"your-phone-number-placeholder": "+88 01231 506070",
+			"your-address": "your address",
+			"your-address-placeholder": "write your address",
+			"submit": "submit"
+		}
+	},
+	"productDetailsTab": {
+		"about": "description",
+		"health-benifits": "health benifits",
+		"usability": "usability",
+		"side-effect": "side effect",
+		"certificates": "certification",
+		"review": "review"
+	},
+	"requestStockToasterMesg": {
+		"mesgType": {
+			"success": "success",
+			"failed": "failed",
+			"warning": "warning",
+			"info": "info"
+		},
+		"validation-mesg": {
+			"name-field": "Your name is missing",
+			"phoneNumber-field": "Your phone number is missing"
+		},
+		"success-mesg": "Your request send successfully",
+		"failed-mesg": "Failed sending your request. Try again later."
+	},
+	"userProfile": {
+		"passChangeToaster": {
+			"successMesg": "Your Password changed successfully",
+			"errorMesg": "Something is Wrong. Please Try Again"
+		}
+	},
+	"userDashboard": {
+		"sideMenu": {
+			"user-profile": "User Profile",
+			"order-status": "Order Status",
+			"order-history": "Order History",
+			"write-review": "Write Review",
+			"change-pin": "Change Pin",
+			"logout": "logout"
+		},
+		"profileHead": {
+			"update-profile": "update profile"
+		},
+		"profileInformation": {
+			"title": "Personal information",
+			"info": {
+				"full-name": "full name",
+				"phone-number": "phone number",
+				"additional-phoneNumber": "additional phone number",
+				"email": "email",
+				"division": "division",
+				"district": "district",
+				"thana": "thana",
+				"local-address": "local address"
+			}
+		},
+		"orderHistory": {
+			"title": "order history",
+			"tableHead": {
+				"date": "date",
+				"order-id": "order-id",
+				"total-amount": "total amount",
+				"order-status": "status",
+				"action": "action"
+			},
+			"pagination": {
+				"next": "next",
+				"previous": "previous"
+			}
+		},
+		"writeReview": {
+			"title": "submit review",
+			"review": {
+				"title": "rate our survice",
+				"options": {
+					"excellent": "Excellent",
+					"very-good": "very Good",
+					"good": "Good",
+					"bad": "bad"
+				}
+			},
+			"writeYourOpinion": "write your opinion",
+			"submit": "submit"
+		},
+		"setUserPin": {
+			"title": "change your pin",
+			"form": {
+				"label": {
+					"current-pin-number": "current pin number",
+					"create-new-pin": "create new pin",
+					"confirm-pin": "confirm pin"
+				},
+				"placeholder": {
+					"current-pin-number": "enter your old pin",
+					"create-new-pin": "write new pin",
+					"confirm-pin": "confirm your new pin"
+				}
+			},
+			"submit": "save change"
+		}
+	},
+
+	"deliveryOption": {
+		"deliveryInfo": {
+			"title": "Delivery Info",
+			"expectedDelivery": {
+				"title": "Expected Delivery Time",
+				"description": "3-5 days after confirmation"
+			},
+			"paymentMethod": {
+				"title": "payment method",
+				"description": "cash on delivery"
+			}
+		},
+		"deliveryArea": {
+			"title": "Delivery Area",
+			"availableArea": {
+				"title": "Available Area",
+				"description": "All Over Bangladesh"
+			}
+		}
+	},
+	"singleOrderDetails": {
+		"orderSummary": {
+			"title": "Order Summary",
+			"order-id": "order id:",
+			"order-date": "order date:",
+			"hello": "hi",
+			"mesg": "your order has been received",
+			"cs-mesg": "For Any inquiries, contact our customer support team",
+			"order-status": "order status",
+			"product-list": "product list",
+			"shipping-address": {
+				"title": "shipping address",
+				"division": "division",
+				"district": "district",
+				"thana": "thana",
+				"local-address": "local address",
+				"subtotal": "subtotal",
+				"payment-method": "payment method",
+				"delivery-charge": "delivery charge",
+				"advanced-payment-amount": "advanced payment ammount",
+				"tk": "tk"
+			},
+			"cancelOrderModal": {
+				"cancelOrderMesg": "Are you sure you want to cancel the order?",
+				"yes": "yes",
+				"no": "no",
+				"toastMesg": "Your Order Has Been Successfully Canceled."
+			}
+		}
+	}
+}
