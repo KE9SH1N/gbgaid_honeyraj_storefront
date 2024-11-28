@@ -4,7 +4,6 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import { MdOutlineEmail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
-import CategoryDropdown from "./CategoryDropdown";
 import { useTranslations } from "next-intl";
 import { useSelector } from "react-redux";
 import { languageSelector } from "../../redux/features/intl/languageSlice";
@@ -21,7 +20,7 @@ const NavMenu: React.FC = () => {
 		<nav className="bg-componentBg font-Roboto font-light text-sm hidden lg:block my-5">
 			<div className="ct-container ct-flex-between xl:ct-grid-cols3-span2 ">
 				<div className="xl:col-span-2 ct-flex-start">
-					<CategoryDropdown />
+					{/* <CategoryDropdown /> */}
 					<ul className="ct-flex-start capitalize font-medium gap-4 py-3">
 						<li>
 							<Link

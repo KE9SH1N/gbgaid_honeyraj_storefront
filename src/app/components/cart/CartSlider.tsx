@@ -62,7 +62,7 @@ const CartSlider: React.FC = () => {
 						</button>
 					</div>
 
-					<div className="p-4 overflow-auto bg-white lg:scrollbar-thin lg:scrollbar-thumb-gbCustomScrollThumbColor lg:scrollbar-track-[#FEF3E9] lg:scrollbar-thumb-rounded flex-grow ">
+					<div className="p-4 overflow-auto bg-white lg:scrollbar-thin lg:scrollbar-thumb-gbSecondaryActiveColor lg:scrollbar-track-[#FEF3E9] lg:scrollbar-thumb-rounded flex-grow ">
 						<ul className="w-full flex flex-col space-y-2 relative z-20">
 							{cartItems.map((item: cartItem) => {
 								return <CartItem key={item.id} item={item} />;
@@ -87,7 +87,7 @@ const CartSlider: React.FC = () => {
 						{totalQuantity > 0 ? (
 							<Link
 								href={`/checkout`}
-								className="ct-flex-center bg-gbPrimaryColor py-3 w-full rounded capitalize text-white"
+								className="ct-flex-center bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor py-3 w-full rounded capitalize text-white smooth-animation-mid"
 								onClick={handleCloseCart}
 							>
 								<CustomButton buttonText={t("button")} />

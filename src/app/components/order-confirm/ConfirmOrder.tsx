@@ -70,7 +70,7 @@ const ConfirmOrder = () => {
 			<div className="flex justify-center mt-6">
 				<Link
 					href={`/auth/profile/orderNumber/${orderNumber.id}`}
-					className="ct-flex-center flex-row space-x-3 px-5 py-2 rounded text-center text-white bg-gbActiveColor capitalize"
+					className="ct-flex-center flex-row space-x-3 px-5 py-2 rounded text-center text-white bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor capitalize smooth-animation-mid"
 				>
 					<span>
 						<PiMapPinLineFill className="text-xl font-bold" />

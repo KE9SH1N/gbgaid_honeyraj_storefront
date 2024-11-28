@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-	--swiper-theme-color: #f68821 !important;
+	--swiper-theme-color: #b2690b !important;
 	overflow-x: hidden;
 	--slider-height: 100vh;
 }
@@ -140,7 +140,7 @@ body {
 	background-color: #fef3e9;
 	border-radius: 50px;
 	font-size: 12px;
-	color: #f68821 !important;
+	color: #b2690b !important;
 	left: 42% !important;
 }
 
@@ -194,7 +194,7 @@ body {
 	right: 25%;
 	position: absolute;
 	border-radius: 5px;
-	background: #f68821;
+	background: #b2690b;
 }
 .range-input {
 	position: relative;
@@ -213,7 +213,7 @@ input[type="range"]::-webkit-slider-thumb {
 	height: 17px;
 	width: 17px;
 	border-radius: 50%;
-	background: #f68821;
+	background: #b2690b;
 	pointer-events: auto;
 	-webkit-appearance: none;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
@@ -223,7 +223,7 @@ input[type="range"]::-moz-range-thumb {
 	width: 17px;
 	border: none;
 	border-radius: 50%;
-	background: #f68821;
+	background: #b2690b;
 	pointer-events: auto;
 	-moz-appearance: none;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
@@ -246,7 +246,7 @@ input[type="range"]::-moz-range-thumb {
 	width: 24px;
 	height: 24px;
 	background-color: transparent;
-	border: 1px solid #f68821;
+	border: 1px solid #f2bd14;
 	border-radius: 50%;
 }
 
@@ -319,7 +319,7 @@ input[type="range"]::-moz-range-thumb {
 
 /* spin loader */
 .loader {
-	border-top-color: #3498db;
+	border-top-color: #b2690b;
 	animation: spin 1s linear infinite;
 }
 
@@ -355,7 +355,7 @@ input[type="range"]::-moz-range-thumb {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #f68821ab;
+	background-color: #b2690b;
 	border-radius: 10px;
 	border: 2px solid #ffffff !important;
 }

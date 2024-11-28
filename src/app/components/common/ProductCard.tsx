@@ -17,7 +17,6 @@ import { useParams } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { getBaseUrl } from "../../lib/helper/getBaseUrl";
 import { languageSelector } from "../../redux/features/intl/languageSlice";
-import { setOpen } from "../../redux/features/notification/toasterSlice";
 import { trackEvent } from "../../lib/dm/facebookPixel";
 
 interface ProductCardProps {
@@ -145,7 +144,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 								? product.product_title_bn
 								: product.product_title_en}
 						</h2>
-						<p className="w-[70%] lg:w-[50%] mt-1 text-center text-xs text-gbPrimaryColor font-bold px-4 py-1 rounded-2xl bg-gbPrimaryColorLight">
+						<p className="w-[70%] lg:w-[50%] mt-1 text-center text-xs text-gbPrimaryHoverColor font-bold px-4 py-1 rounded-2xl bg-gbPrimaryColorLight">
 							<span>{product.pack_size}</span>
 						</p>
 					</Link>
@@ -205,7 +204,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
 								<div>
 									<div>
 										<button
-											className={`bg-gbPrimaryColor py-2 text-[10px] sm:text-sm w-full rounded capitalize text-white`}
+											className={`bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor py-2 text-[10px] sm:text-sm w-full rounded capitalize text-white smooth-animation-mid`}
 											onClick={() => {
 												handleAddToCart(product, index);
 											}}

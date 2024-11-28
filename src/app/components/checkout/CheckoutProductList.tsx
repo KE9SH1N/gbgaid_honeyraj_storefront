@@ -19,7 +19,7 @@ const CheckoutProductList = () => {
 			<div>
 				<SectionHead headingText={t("productList.title")} />
 			</div>
-			<div className="my-2 py-2 overflow-auto bg-white flex-grow max-h-[365px] lg:max-h-[530px] lg:scrollbar-thin lg:scrollbar-thumb-gbCustomScrollThumbColor lg:scrollbar-track-[#FEF3E9]">
+			<div className="my-2 py-2 overflow-auto bg-white flex-grow max-h-[365px] lg:max-h-[530px] lg:scrollbar-thin lg:scrollbar-thumb-gbSecondaryActiveColor lg:scrollbar-track-[#FEF3E9]">
 				<ul className="w-full flex flex-col space-y-2 relative z-0">
 					{cartItems.map((item: Product) => {
 						return (

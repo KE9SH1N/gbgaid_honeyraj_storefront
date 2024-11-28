@@ -30,7 +30,7 @@ const EmptyCheckout = () => {
 			</div>
 			<Link
 				href={`/`}
-				className=" capitalize bg-gbPrimaryColor py-4 rounded text-white shadow-md"
+				className=" capitalize bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor py-4 rounded text-white shadow-md smooth-animation-mid"
 			>
 				<div className=" w-52 text-center">
 					<CustomButton buttonText={t("empty-button")} />

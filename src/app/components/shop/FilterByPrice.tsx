@@ -66,7 +66,7 @@ const FilterByPrice = () => {
 						height: "100%",
 						position: "absolute",
 						borderRadius: "5px",
-						background: "#f68821",
+						background: "#B2690B",
 					}}
 				></div>
 			</div>

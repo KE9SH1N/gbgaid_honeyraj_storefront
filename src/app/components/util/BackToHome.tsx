@@ -14,7 +14,7 @@ const BackToHome = () => {
 					<div className=" absolute left-[25%] top-[22%] sm:left-[20%]">
 						<FaArrowLeft className="text-xl text-white" />
 					</div>
-					<div className="ct-flex-center bg-gbPrimaryColor py-2 text-[14px] w-full rounded capitalize text-white">
+					<div className="ct-flex-center bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor py-2 text-[14px] w-full rounded capitalize text-white smooth-animation-mid">
 						<CustomButton buttonText={t("button")} />
 					</div>
 				</Link>

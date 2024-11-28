@@ -41,8 +41,6 @@ export default function Home() {
 					<>
 						<GlobalLayout>
 							<HeroSection />
-							<CategoryList />
-							<BestSelling />
 							<AllProducts />
 							<UserRating />
 							<CustomerReview />

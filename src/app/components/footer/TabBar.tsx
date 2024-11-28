@@ -52,19 +52,19 @@ const TabBar: React.FC = () => {
 		<div>
 			<div className="bg-white py-3 shadow-inner z-10 fixed bottom-0 left-0 right-0 lg:hidden">
 				<div className="ct-container">
-					<ul className="ct-grid-cols-4">
+					<ul className="ct-grid-cols-3">
 						<Link href={`/`} onClick={handleCloseCart}>
 							<li className="ct-flex-center flex-col">
 								<FaHome className="text-xl" />
 								<p className="text-xs capitalize">{t("home")}</p>
 							</li>
 						</Link>
-						<Link href={`/category`} onClick={handleCloseCart}>
+						{/* <Link href={`/category`} onClick={handleCloseCart}>
 							<li className="ct-flex-center flex-col">
 								<BiCategory className="text-xl" />
 								<p className="text-xs capitalize">{t("category")}</p>
 							</li>
-						</Link>
+						</Link> */}
 						<li className="ct-flex-center relative flex-col">
 							<button onClick={handleToggleCart}>
 								<FiShoppingCart className="text-xl" />

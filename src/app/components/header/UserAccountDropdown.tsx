@@ -9,16 +9,10 @@ import UseOutsideClickAndEscape from "../../hooks/useDropdown";
 import { languageSelector } from "../../redux/features/intl/languageSlice";
 import Image from "next/image";
 import { handleLogout } from "../../lib/common/Logout";
-import {
-	MdOutlineKeyboardArrowDown,
-	MdOutlineKeyboardArrowUp,
-} from "react-icons/md";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { selectUserDetailsData } from "../../redux/features/auth/userDetailsSlice";
 import { FaRegUserCircle } from "react-icons/fa";
-import {
-	setMessage,
-	setOpen,
-} from "@/app/redux/features/notification/toasterSlice";
+import { FaRegCircleUser } from "react-icons/fa6";
 
 const UserAccountDropdown = () => {
 	const dispatch = useDispatch();
@@ -67,12 +61,15 @@ const UserAccountDropdown = () => {
 							</div>
 						</div>
 					) : (
-						<Image
-							src="/image/User Profile.svg"
-							alt="User Icon"
-							width={36}
-							height={36}
-						/>
+						<div>
+							<FaRegCircleUser className="text-2xl text-gbSecondaryActiveColor" />
+						</div>
+						// <Image
+						// 	src="/image/User Profile.svg"
+						// 	alt="User Icon"
+						// 	width={36}
+						// 	height={36}
+						// />
 					)}
 				</div>
 				<div className="w-full relative">
@@ -117,7 +114,7 @@ const UserAccountDropdown = () => {
 							<Link
 								onClick={() => setDropdownopen(false)}
 								href={`/auth/login`}
-								className="w-full p-2 text-xs hover:text-[#ffffff] hover:bg-gbPrimaryColor hover:opacity-90 smooth-animation-mid "
+								className="w-full p-2 text-xs hover:text-black hover:bg-gbPrimaryColor hover:opacity-90 smooth-animation-mid "
 							>
 								<li>
 									{selectedLanguage === "bn" ? <li>লগইন</li> : <li>Login</li>}
@@ -127,7 +124,7 @@ const UserAccountDropdown = () => {
 							<Link
 								onClick={() => setDropdownopen(false)}
 								href={`/auth/registration`}
-								className="w-full p-2 text-xs hover:text-[#ffffff] hover:bg-gbPrimaryColor hover:opacity-90 smooth-animation-mid "
+								className="w-full p-2 text-xs hover:text-black hover:bg-gbPrimaryColor hover:opacity-90 smooth-animation-mid "
 							>
 								<li>
 									{selectedLanguage === "bn" ? (

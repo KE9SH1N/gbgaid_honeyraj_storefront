@@ -61,7 +61,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
 								</button>
 							</div>
 
-							<p className="w-[40%] text-center text-xs capitalize text-gbPrimaryColor py-1 mt-2 rounded-2xl bg-gbPrimaryColorLight">
+							<p className="w-[40%] text-center text-xs lowercase text-gbPrimaryHoverColor py-1 mt-2 rounded-2xl bg-gbPrimaryColorLight">
 								<span>{item.pack_size}</span>
 							</p>
 						</div>

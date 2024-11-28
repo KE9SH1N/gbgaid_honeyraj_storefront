@@ -13,7 +13,7 @@ const FIlterProduct = () => {
 				<h3 className="text-xl font-semibold capitalize">{t("filter")}</h3>
 			</div>
 			<div>
-				<FilterByCategory />
+				{/* <FilterByCategory /> */}
 				<FilterByPrice />
 				<FilterByStock />
 			</div>

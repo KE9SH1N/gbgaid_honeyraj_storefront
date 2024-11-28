@@ -435,7 +435,7 @@ const CheckoutMain = () => {
 											<button
 												onClick={handleSubmit}
 												disabled={Loader}
-												className="w-full lg:w-[40%] mx-auto ct-flex-center bg-gbPrimaryColor py-3 rounded capitalize cursor-pointer text-white"
+												className="w-full lg:w-[40%] mx-auto ct-flex-center bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor py-3 rounded capitalize cursor-pointer text-white smooth-animation-mid"
 											>
 												{Loader ? (
 													<ClipLoader size={24} color={"#fff"} />
@@ -459,7 +459,7 @@ const CheckoutMain = () => {
 												<button
 													onClick={handleSubmit}
 													disabled={Loader}
-													className="w-full lg:w-[40%] mx-auto ct-flex-center bg-gbPrimaryColor py-3 capitalize cursor-pointer text-white"
+													className="w-full lg:w-[40%] mx-auto ct-flex-center bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor py-3 capitalize cursor-pointer text-white smooth-animation-mid"
 												>
 													{Loader ? (
 														<ClipLoader size={24} color={"#fff"} />

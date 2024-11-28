@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import CustomButton from "../util/CustomButton";
 import { useDispatch, useSelector } from "react-redux";
 import { closeSidebar } from "../../redux/features/util/sidebarSlice";
@@ -10,17 +10,13 @@ import { BiSupport } from "react-icons/bi";
 import { useTranslations } from "next-intl";
 import useLanguageChange from "../../hooks/useLanguageChange";
 import { languageSelector } from "../../redux/features/intl/languageSlice";
-import {
-	MdMenuOpen,
-	MdOutlineKeyboardArrowDown,
-	MdOutlineKeyboardArrowUp,
-} from "react-icons/md";
 import UseOutsideClickAndEscape from "../../hooks/useDropdown";
 import { handleLogout } from "../../lib/common/Logout";
 import { useRouter } from "next/navigation";
 import { selectUserDetailsData } from "../../redux/features/auth/userDetailsSlice";
 import SideMenuProductCategory from "../category/SideMenuProductCategory";
 import { IoCallOutline, IoCopyOutline } from "react-icons/io5";
+import { MdMenuOpen } from "react-icons/md";
 
 const MobileSidebar: React.FC = () => {
 	const dispatch = useDispatch();
@@ -42,7 +38,6 @@ const MobileSidebar: React.FC = () => {
 	const ts = useTranslations("navigationMenu");
 
 	const token = localStorage.getItem("accessToken");
-	const userData = useSelector(selectUserDetailsData);
 
 	const [buttonText, setButtonText] = useState("copy");
 	const [telLink, setTelLink] = useState("tel:09642922922");
@@ -113,11 +108,11 @@ const MobileSidebar: React.FC = () => {
 					</div>
 
 					{/* Category Section  */}
-					<div className=" w-full ">
+					{/* <div className=" w-full ">
 						<SideMenuProductCategory />
-					</div>
+					</div> */}
 
-					{/* <div className="w-full px-4 py-4 border-b border-b-borderLine">
+					<div className="w-full px-4 py-4 border-b border-b-borderLine">
 						<h3 className="ct-flex-start items-center gap-x-2 rounded px-1 py-2 bg-gbPrimaryColor text-white">
 							<MdMenuOpen className="text-xl" />
 							<span className="w-full text-sm font-medium uppercase">
@@ -164,7 +159,7 @@ const MobileSidebar: React.FC = () => {
 								</Link>
 							</li>
 						</ul>
-					</div> */}
+					</div>
 
 					{/* support section  */}
 
@@ -226,7 +221,7 @@ const MobileSidebar: React.FC = () => {
 					</div>
 
 					{/* about us menu  */}
-					<div className="w-full">
+					{/* <div className="w-full">
 						<ul className="w-[90%] xs:w-[80%] md:w-[60%] py-2 ct-flex-center gap-x-2 mx-auto">
 							<li className="w-full px-2 text-sm rounded py-1 border border-gbPrimaryColor bg-componentBg">
 								<Link
@@ -248,7 +243,7 @@ const MobileSidebar: React.FC = () => {
 								</Link>
 							</li>
 						</ul>
-					</div>
+					</div> */}
 				</div>
 
 				{/* login button  */}
