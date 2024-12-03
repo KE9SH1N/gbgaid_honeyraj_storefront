@@ -175,7 +175,7 @@ const OtpForm: React.FC<OtpProps> = ({
 	return (
 		<div className="ct-flex-center flex-col min-h-[70vh]">
 			<div className="w-full max-w-xs p-6 bg-white rounded shadow-md">
-				<h2 className="text-3xl font-bold text-center text-orange-500 mb-6">
+				<h2 className="text-3xl font-bold text-center text-gbPrimaryColor mb-6">
 					OTP Verification
 				</h2>
 				<p className="text-center text-sm text-gray-600 mb-4">
@@ -226,7 +226,9 @@ const OtpForm: React.FC<OtpProps> = ({
 				<div>
 					<p className="text-center text-gray-500 mb-6">
 						{expired ? (
-							<span className="font-semibold text-red-500">Expired</span>
+							<span className="font-semibold text-gbInactiveColor">
+								Expired
+							</span>
 						) : (
 							<div>
 								<span>This code will expire in:</span>

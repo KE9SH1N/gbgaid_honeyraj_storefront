@@ -136,7 +136,7 @@ const NewPassForm = () => {
 	return (
 		<div className="w-full">
 			<div className="w-full mx-auto my-10">
-				<h2 className=" text-4xl text-center text-[#F68821] font-bold">
+				<h2 className=" text-4xl text-center text-gbPrimaryColor font-bold">
 					Set New Password
 				</h2>
 			</div>
@@ -149,13 +149,13 @@ const NewPassForm = () => {
 					<div className="w-full ct-flex-between">
 						<label htmlFor="writeUserPassword" className=" capitalize text-xs">
 							{t("setUserPin.form.label.create-new-pin")}
-							<span className="text-red-500">*</span>
+							<span className="text-gbInactiveColor">*</span>
 						</label>
 						{(userNewPinErrorMesg || userNewPinSuccessMesg) && (
 							<p
 								className={`capitalize text-xs ${
 									userNewPinErrorMesg && "text-gbInactiveColor"
-								} ${userNewPinSuccessMesg && "text-gbActiveColor"}`}
+								} ${userNewPinSuccessMesg && "text-gbSecondaryActiveColor"}`}
 							>
 								{userNewPinErrorMesg || userNewPinSuccessMesg}
 							</p>
@@ -165,7 +165,7 @@ const NewPassForm = () => {
 						<input
 							id="writeUserPassword"
 							type={newPinCode ? "text" : "password"}
-							className="w-full bg-[#F6F6F6] rounded px-3 py-2 border focus:border-[#F68821] focus:outline-none placeholder:capitalize"
+							className="w-full bg-[#F6F6F6] rounded px-3 py-2 border focus:border-gbPrimaryHoverColor focus:outline-none placeholder:capitalize"
 							placeholder={t("setUserPin.form.placeholder.create-new-pin")}
 							title="Write Your New Password Here, Only Numbers and Alphabets (ex: sakIb321)"
 							value={userNewPin ?? ""}
@@ -188,13 +188,13 @@ const NewPassForm = () => {
 					<div className="w-full ct-flex-between">
 						<label htmlFor="confirmUserPassword" className="capitalize text-xs">
 							{t("setUserPin.form.label.confirm-pin")}
-							<span className="text-red-500">*</span>
+							<span className="text-gbPrimaryColor">*</span>
 						</label>
 						{(confirmPinErrorMesg || confirmPinSuccessMesg) && (
 							<p
 								className={`capitalize text-xs ${
 									confirmPinErrorMesg && "text-gbInactiveColor"
-								} ${confirmPinSuccessMesg && "text-gbActiveColor"}`}
+								} ${confirmPinSuccessMesg && "text-gbSecondaryActiveColor"}`}
 							>
 								{confirmPinErrorMesg || confirmPinSuccessMesg}
 							</p>
@@ -206,7 +206,7 @@ const NewPassForm = () => {
 							type={confirmNewPinCode ? "text" : "password"}
 							value={userConfirmPin ?? ""}
 							onChange={handleConfrimPin}
-							className="w-full bg-[#F6F6F6] rounded px-3 py-2 border focus:border-[#F68821] focus:outline-none placeholder:capitalize "
+							className="w-full bg-[#F6F6F6] rounded px-3 py-2 border focus:border-gbPrimaryHoverColor focus:outline-none placeholder:capitalize "
 							placeholder={t("setUserPin.form.placeholder.confirm-pin")}
 							title="Re-Type Your New Password For Confirmation (sakIb321)"
 						/>
@@ -226,7 +226,7 @@ const NewPassForm = () => {
 				<div>
 					<button
 						onClick={handleChangePassword}
-						className="bg-[#F68821] py-2 text-sm w-full text-center rounded  text-white cursor-pointer capitalize"
+						className="bg-gbPrimaryColor py-2 text-sm w-full text-center rounded  text-white cursor-pointer capitalize"
 					>
 						{/* <CustomButton buttonText={t("setUserPin.submit")} /> */}
 						<CustomButton buttonText="save" />
