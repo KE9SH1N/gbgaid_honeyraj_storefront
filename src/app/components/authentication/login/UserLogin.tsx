@@ -131,7 +131,7 @@ const UserLogin = () => {
 	return (
 		<div>
 			<div className="ct-container ct-flex-center flex-col h-[71.3vh] text-center capitalize ">
-				<h2 className=" text-5xl text-[#F68821] font-bold">User Login</h2>
+				<h2 className=" text-5xl text-gbPrimaryColor font-bold">User Login</h2>
 				<div className="w-80 flex flex-col gap-y-3">
 					<p className=" text-gbInactiveColor">{errorMessage}</p>
 					<form
@@ -209,7 +209,7 @@ const UserLogin = () => {
 						If you have no account, please create an account first
 					</p>
 					<Link href={`/auth/registration`}>
-						<div className="w-full inner-border inner-border-[#F68821] py-3 rounded capitalize font-medium text-[#F68821] cursor-pointer">
+						<div className="w-full inner-border inner-border-gbPrimaryColor py-3 rounded capitalize font-medium text-gbPrimaryColor cursor-pointer">
 							<CustomButton buttonText="create account" />
 						</div>
 					</Link>

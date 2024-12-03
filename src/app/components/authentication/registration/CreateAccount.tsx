@@ -178,7 +178,9 @@ const CreateAccount: React.FC<CreateAccountProps> = ({
 	return (
 		<div>
 			<div className="ct-container ct-flex-center flex-col space-y-6 h-[71.3vh] text-center capitalize ">
-				<h2 className=" text-5xl text-[#F68821] font-bold">create account</h2>
+				<h2 className=" text-5xl text-gbPrimaryColor font-bold">
+					create account
+				</h2>
 				<p className="text-gbInactiveColor">{createAccountErrorMesg}</p>
 				<div className="w-80 flex flex-col space-y-6">
 					<form
@@ -229,7 +231,7 @@ const CreateAccount: React.FC<CreateAccountProps> = ({
 								type={showPassword ? "text" : "password"}
 								value={userCreateAccountPassword}
 								onChange={handleUserCreateAccountPassword}
-								className="w-full bg-[#F6F6F6] rounded px-3 py-2 border focus:border-[#F68821] focus:outline-none placeholder:capitalize"
+								className="w-full bg-[#F6F6F6] rounded px-3 py-2 border focus:border-gbPrimaryHoverColor focus:outline-none placeholder:capitalize"
 								placeholder="confirm your password"
 								title="Re-Type Your Password For Confirmation (eMtiaz123)"
 							/>
@@ -253,7 +255,9 @@ const CreateAccount: React.FC<CreateAccountProps> = ({
 								<span>confirm your password</span>
 								{userCreateAccountPassword ===
 								userCreateAccountConfirmPassword ? (
-									<span className="text-gbActiveColor">{successMessage}</span>
+									<span className="text-gbSecondaryActiveColor">
+										{successMessage}
+									</span>
 								) : (
 									<span className="text-gbInactiveColor">{errorMessage}</span>
 								)}
@@ -263,7 +267,7 @@ const CreateAccount: React.FC<CreateAccountProps> = ({
 								type={showConfirmPassword ? "text" : "password"}
 								value={userCreateAccountConfirmPassword}
 								onChange={handleUserCreateAccountConfirmPassword}
-								className="w-full bg-[#F6F6F6] rounded px-3 py-2 border focus:border-[#F68821] focus:outline-none placeholder:capitalize"
+								className="w-full bg-[#F6F6F6] rounded px-3 py-2 border focus:border-gbPrimaryHoverColor focus:outline-none placeholder:capitalize"
 								placeholder="confirm your password"
 								title="Re-Type Your Password For Confirmation (eMtiaz123)"
 							/>
@@ -282,7 +286,7 @@ const CreateAccount: React.FC<CreateAccountProps> = ({
 						<div>
 							<button
 								type="submit"
-								className="bg-[#F68821] py-3 text-sm w-full text-center rounded capitalize text-white cursor-pointer"
+								className="bg-gbPrimaryColor py-3 text-sm w-full text-center rounded capitalize text-white cursor-pointer"
 							>
 								<CustomButton buttonText="create account" />
 							</button>

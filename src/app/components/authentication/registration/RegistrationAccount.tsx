@@ -127,7 +127,9 @@ const RegistrationAccount = () => {
 			<div className="ct-container ">
 				{!verifyOtp ? (
 					<div className="ct-flex-center flex-col space-y-6 h-[71.3vh] text-center capitalize ">
-						<h2 className=" text-5xl text-[#F68821] font-bold">Registration</h2>
+						<h2 className=" text-5xl text-gbPrimaryColor font-bold">
+							Registration
+						</h2>
 						<p className="text-gbInactiveColor">{createAccountErrorMesg}</p>
 						<div className="w-80 flex flex-col space-y-6">
 							<form
@@ -155,7 +157,7 @@ const RegistrationAccount = () => {
 								<div>
 									<button
 										type="submit"
-										className="bg-[#F68821] py-3 text-sm w-full text-center rounded capitalize text-white cursor-pointer"
+										className="bg-gbPrimaryColor py-3 text-sm w-full text-center rounded capitalize text-white cursor-pointer"
 									>
 										<CustomButton buttonText="submit" />
 									</button>
@@ -164,7 +166,7 @@ const RegistrationAccount = () => {
 
 							<p className="text-xs">already have an account ?</p>
 							<Link href={`/auth/login`}>
-								<div className="w-full inner-border inner-border-[#F68821] py-3 rounded capitalize font-medium text-[#F68821] cursor-pointer">
+								<div className="w-full inner-border inner-border-gbPrimaryHoverColor py-3 rounded capitalize font-medium text-gbPrimaryColor cursor-pointer">
 									<CustomButton buttonText="login" />
 								</div>
 							</Link>

@@ -110,7 +110,7 @@ const RequestPasswordChange = () => {
 		<div className="ct-container w-full">
 			{!verifyOtp ? (
 				<div className="ct-flex-center flex-col space-y-6 text-center capitalize ">
-					<h2 className=" text-4xl text-[#F68821] font-bold">
+					<h2 className=" text-4xl text-gbPrimaryColor font-bold">
 						Forget Password
 					</h2>
 					{/* <p className="text-gbInactiveColor">{createAccountErrorMesg}</p> */}
@@ -141,7 +141,7 @@ const RequestPasswordChange = () => {
 							<div>
 								<button
 									type="submit"
-									className="bg-[#F68821] py-2 text-sm w-full text-center rounded capitalize text-white cursor-pointer"
+									className="bg-gbPrimaryColor py-2 text-sm w-full text-center rounded capitalize text-white cursor-pointer"
 								>
 									<CustomButton buttonText="submit" />
 								</button>
@@ -153,12 +153,12 @@ const RequestPasswordChange = () => {
 						</p>
 						<div className="w-full ct-flex-center gap-x-5">
 							<Link href={`/auth/login`} className="w-[45%]">
-								<div className="w-full bg-[#F68821] px-2 py-2 rounded capitalize font-medium text-sm text-white cursor-pointer">
+								<div className="w-full bg-gbPrimaryColor px-2 py-2 rounded capitalize font-medium text-sm text-white cursor-pointer">
 									<CustomButton buttonText="login" />
 								</div>
 							</Link>
 							<Link href={`/auth/registration`} className="w-[45%]">
-								<div className="w-full inner-border inner-border-[#F68821] px-2 py-2 rounded capitalize font-medium text-sm text-[#F68821] cursor-pointer">
+								<div className="w-full inner-border inner-border-gbPrimaryHoverColor px-2 py-2 rounded capitalize font-medium text-sm text-gbPrimaryColor cursor-pointer">
 									<CustomButton buttonText="create account" />
 								</div>
 							</Link>
