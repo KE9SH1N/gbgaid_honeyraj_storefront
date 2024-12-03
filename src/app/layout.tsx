@@ -10,8 +10,8 @@ import { CookiesProvider } from "next-client-cookies/server";
 const inter = Inter({ subsets: ["latin"] });
 
 const metadata: Metadata = {
-	title: "Ghorer Bazar",
-	description: "GhorerBazar",
+	title: "Honeyraj",
+	description: "Honeyraj",
 };
 
 export default async function RootLayout({

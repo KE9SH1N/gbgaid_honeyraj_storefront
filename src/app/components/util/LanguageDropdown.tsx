@@ -11,7 +11,7 @@ import useLanguageChange from "../../hooks/useLanguageChange";
 import { useTranslations } from "next-intl";
 import UseOutsideClickAndEscape from "../../hooks/useDropdown";
 import { useCookies } from "next-client-cookies";
-import { defaultLocale, Locale } from "@/i18n/config";
+import { defaultLocale, Locale, locales } from "@/i18n/config";
 import { setUserLocale } from "@/services/locale";
 
 interface LanguageDropdownColorProps {
@@ -29,14 +29,9 @@ const LanguageDropdown: React.FC<LanguageDropdownColorProps> = ({
 }) => {
 	const dispatch = useDispatch();
 	const cookies = useCookies();
-	const path = usePathname();
 	const [isDropdownOpen, setDropdownOpen] = useState<boolean>(false);
 
 	const dropdownRef = useRef<HTMLDivElement>(null);
-
-	// const params = useParams();
-
-	// const handleLanguageChange = useLanguageChange();
 
 	// For multi-language
 	const t = useTranslations("languageChange");
@@ -45,14 +40,6 @@ const LanguageDropdown: React.FC<LanguageDropdownColorProps> = ({
 	UseOutsideClickAndEscape(dropdownRef, setDropdownOpen);
 
 	let activeLanguage = cookies.get("NEXT_LOCALE");
-
-	// useEffect(() => {
-	// 	if (params.locale === "bn" || params.locale === "en") {
-	// 		dispatch(setLanguage(params.locale));
-	// 	} else {
-	// 		dispatch(setLanguage("bn"));
-	// 	}
-	// }, [params.locale, dispatch]);
 
 	const handleHover = (e: React.MouseEvent<HTMLElement, MouseEvent>) => {
 		const target = e.target as HTMLButtonElement;
@@ -69,14 +56,17 @@ const LanguageDropdown: React.FC<LanguageDropdownColorProps> = ({
 	};
 
 	useEffect(() => {
-		if (activeLanguage) {
+		const cookieLanguage = cookies.get("NEXT_LOCALE");
+		if (cookieLanguage && locales.includes(cookieLanguage as Locale)) {
+			dispatch(setLanguage(cookieLanguage as Locale));
+		} else {
 			cookies.set("NEXT_LOCALE", defaultLocale);
 			dispatch(setLanguage(defaultLocale));
 			startTransition(() => {
 				setUserLocale(defaultLocale);
 			});
 		}
-	}, [path]);
+	}, []);
 
 	// next intl language selector
 	const handleLanguage = (language: string) => {
