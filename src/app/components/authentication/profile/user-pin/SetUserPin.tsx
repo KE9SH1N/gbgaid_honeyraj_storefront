@@ -77,13 +77,13 @@ const SetUserPin = () => {
 		dispatch(setNewPin(value));
 
 		if (value == null) {
-			dispatch(setNewPinSuccessMesg(""));
+			dispatch(setNewPinSuccessMesg(null));
 		} else {
 			if (value === userCurrentPin) {
-				dispatch(setNewPinSuccessMesg(""));
+				dispatch(setNewPinSuccessMesg(null));
 				dispatch(setNewPinErrorMesg("New Pin is not same as current Pin"));
 			} else {
-				dispatch(setNewPinErrorMesg(""));
+				dispatch(setNewPinErrorMesg(null));
 				dispatch(setNewPinSuccessMesg("Unique Pin"));
 				dispatch(setNewPin(value));
 			}
@@ -118,30 +118,30 @@ const SetUserPin = () => {
 				dispatch(setCurrentPinErrorMesg("Plz Type your current pin"));
 
 				setTimeout(() => {
-					dispatch(setCurrentPinErrorMesg(""));
+					dispatch(setCurrentPinErrorMesg(null));
 				}, 4000);
 			} else {
-				dispatch(setCurrentPinErrorMesg(""));
+				dispatch(setCurrentPinErrorMesg(null));
 			}
 
 			if (userNewPin === null) {
 				dispatch(setNewPinErrorMesg("Plz Type your new pin"));
 
 				setTimeout(() => {
-					dispatch(setNewPinErrorMesg(""));
+					dispatch(setNewPinErrorMesg(null));
 				}, 4000);
 			} else {
-				dispatch(setNewPinErrorMesg(""));
+				dispatch(setNewPinErrorMesg(null));
 			}
 
 			if (userConfirmPin === null) {
 				dispatch(setConfirmPinErrorMesg("Plz type to confirm new pin"));
 
 				setTimeout(() => {
-					dispatch(setConfirmPinErrorMesg(""));
+					dispatch(setConfirmPinErrorMesg(null));
 				}, 4000);
 			} else {
-				dispatch(setConfirmPinErrorMesg(""));
+				dispatch(setConfirmPinErrorMesg(null));
 			}
 
 			if (
@@ -242,7 +242,7 @@ const SetUserPin = () => {
 										"setUserPin.form.placeholder.current-pin-number"
 									)}
 									title="Enter Old Password (ex: sakIb321)"
-									value={userCurrentPin ?? ""}
+									// value={value}
 									onChange={handleCurrentPin}
 								/>
 								<div

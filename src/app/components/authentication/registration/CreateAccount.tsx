@@ -24,6 +24,7 @@ import {
 } from "@/app/redux/features/auth/userProfileSlice";
 import { RxEyeOpen } from "react-icons/rx";
 import { GoEyeClosed } from "react-icons/go";
+import { setCookie } from "cookie-handler-pro";
 
 interface CreateAccountProps {
 	handleCreateProfile?: () => void;
@@ -109,6 +110,16 @@ const CreateAccount: React.FC<CreateAccountProps> = ({
 		}
 	};
 
+	const handleSetCookie = (token: string) => {
+		setCookie("accessToken", token, {
+			expires: "20d",
+			path: "/",
+			domain: window.location.hostname,
+			secure: process.env.NODE_ENV === "production",
+			sameSite: "Lax",
+		});
+	};
+
 	const togglePasswordVisibility = () => {
 		setShowPassword(!showPassword);
 	};
@@ -144,6 +155,7 @@ const CreateAccount: React.FC<CreateAccountProps> = ({
 				const token = data?.accessToken;
 				if (token) {
 					localStorage.setItem("accessToken", token);
+					handleSetCookie(token);
 					router.push(`/`);
 					dispatch(resetUserCreateAccountFormState());
 				} else {

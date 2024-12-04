@@ -25,7 +25,7 @@ const OrderProgress = () => {
 	const orderDetails = useSelector(selectOrderDetailsData);
 	const orderDetailsData = orderDetails.data;
 
-	const singleOrderStatus = orderDetailsData[0]?.orderStatus?.value;
+	const singleOrderStatus = Number(orderDetailsData[0]?.orderStatus?.value);
 
 	const [buttonText, setButtonText] = useState("copy");
 	const [telLink, setTelLink] = useState("tel:09642922922");

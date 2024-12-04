@@ -125,7 +125,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
 						{/* Product status */}
 						{product.product_status === "undefined" ||
 						product.product_status === " " ||
-						product.product_status === "" ? (
+						product.product_status === "" ||
+						product.product_status === null ? (
 							""
 						) : (
 							<div className="absolute top-[2%] md:top-[3%] left-[3%] px-2 py-1 bg-gbPrimaryColor rounded-full drop-shadow-md">
