@@ -7,11 +7,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { useTranslations } from "next-intl";
 import UseOutsideClickAndEscape from "../../hooks/useDropdown";
 import { languageSelector } from "../../redux/features/intl/languageSlice";
-import Image from "next/image";
 import { handleLogout } from "../../lib/common/Logout";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { selectUserDetailsData } from "../../redux/features/auth/userDetailsSlice";
-import { FaRegUserCircle } from "react-icons/fa";
 import { FaRegCircleUser } from "react-icons/fa6";
 
 const UserAccountDropdown = () => {

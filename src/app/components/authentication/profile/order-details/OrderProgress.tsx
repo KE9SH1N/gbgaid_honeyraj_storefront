@@ -10,7 +10,6 @@ import { IoIosCall } from "react-icons/io";
 import { IoCallOutline, IoCopyOutline } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
 import Modal from "../../common/Modal";
-import { fetchOrderDetailsById } from "@/app/api/orderDetailsApiService";
 import {
 	setMessage,
 	setOpen,
