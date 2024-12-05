@@ -25,6 +25,7 @@ const ConfirmOrder = () => {
 	const [loader, setLoader] = useState(true);
 
 	const selectedLanguage = useSelector(languageSelector);
+	const token = localStorage.getItem("accessToken");
 
 	useEffect(() => {
 		const resetStates = async () => {
@@ -67,17 +68,19 @@ const ConfirmOrder = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex justify-center mt-6">
-				<Link
-					href={`/auth/profile/orderNumber/${orderNumber.id}`}
-					className="ct-flex-center flex-row space-x-3 px-5 py-2 rounded text-center text-white bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor capitalize smooth-animation-mid"
-				>
-					<span>
-						<PiMapPinLineFill className="text-xl font-bold" />
-					</span>
-					<span>Track Your Order</span>
-				</Link>
-			</div>
+			{token && (
+				<div className="flex justify-center mt-6">
+					<Link
+						href={`/auth/profile/orderNumber/${orderNumber.id}`}
+						className="ct-flex-center flex-row space-x-3 px-5 py-2 rounded text-center text-white bg-gbPrimaryColor hover:bg-gbPrimaryHoverColor capitalize smooth-animation-mid"
+					>
+						<span>
+							<PiMapPinLineFill className="text-xl font-bold" />
+						</span>
+						<span>Track Your Order</span>
+					</Link>
+				</div>
+			)}
 		</div>
 	);
 };
