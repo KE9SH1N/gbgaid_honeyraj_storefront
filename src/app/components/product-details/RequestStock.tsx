@@ -176,15 +176,16 @@ const RequestStock: React.FC<overlayProps> = ({
 						: "opacity-0 pointer-events-none"
 				} smooth-animation-mid flex justify-center items-center rounded h-8`}
 			>
-				{errorMessages?.map((errorMesg: string, index: number) => (
-					<div
-						className=" text-white text-sm ct-flex-center gap-x-2 p-1"
-						key={index}
-					>
-						<BiError className="text-base" />
-						{errorMesg}
-					</div>
-				))}
+				{errorMessages?.length > 0 &&
+					errorMessages?.map((errorMesg: string, index: number) => (
+						<div
+							className=" text-white text-sm ct-flex-center gap-x-2 p-1"
+							key={index}
+						>
+							<BiError className="text-base" />
+							{errorMesg}
+						</div>
+					))}
 			</div>
 
 			<form action="" className=" w-full ct-flex-start flex-col space-y-4 my-3">
